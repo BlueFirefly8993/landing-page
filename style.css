@@ -107,6 +107,30 @@ body {
   padding-bottom: 10px;
 }
 
+.quote-container {
+  height: fit-content;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  padding: 100px 500px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-source {
+  font-weight: bold;
+  font-size: 28px;
+  align-self: flex-end;
+  padding-top: 20px;
+}
+
 .footer {
   background-color: #1f2937;
   font-size: 18px;
