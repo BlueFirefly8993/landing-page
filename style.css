@@ -48,6 +48,9 @@ body {
 .hero-container {
   display: flex;
   padding-bottom: 20px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-left {
@@ -65,8 +68,11 @@ body {
 }
 
 .hero-text {
-  font-size: 18px;
+  font-size: 22px;
   color: #e5e7eb;
+  width: 500px;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
 }
 
 .signup button {
@@ -90,7 +96,7 @@ body {
 .info-grid-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   padding-top: 40px;
   text-align: center;
   padding-bottom: 80px;
@@ -104,7 +110,7 @@ body {
   height: 100px;
   width: 100px;
   align-self: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .quote-container {
@@ -129,6 +135,49 @@ body {
   font-size: 28px;
   align-self: flex-end;
   padding-top: 20px;
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 200px;
+}
+
+.call-to-action-content {
+  padding: 50px 100px;
+  background-color: #3882f6;
+  border-radius: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 200px;
+}
+
+.call-to-action-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.call-to-action-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-top: 4px;
+}
+
+.call-to-action-right button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 10px 32px;
+}
+
+.call-to-action-right a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer {
